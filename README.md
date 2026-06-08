@@ -4,7 +4,7 @@ Python-based data collection pipeline for generating autonomous driving datasets
 
 ## Overview
 
-This project collects synchronized multi-sensor data from CARLA, including RGB camera, depth camera, semantic segmentation, and LiDAR. The dataset pipeline supports autonomous driving research and model development using dashcam and Bird's Eye View perspectives.
+This project collects synchronized multi-sensor data from CARLA, including RGB camera, depth camera, semantic segmentation, and LiDAR. The pipeline is designed to support autonomous driving research and model development using dashcam and Bird's Eye View perspectives.
 
 ## Features
 
@@ -23,7 +23,7 @@ This project collects synchronized multi-sensor data from CARLA, including RGB c
 
 ## Repository Structure
 
-.
+carla-autonomous-driving-dataset-pipeline/
 ├── notebooks/
 │   └── carla_dataset_collection_pipeline.ipynb
 ├── README.md
@@ -32,25 +32,29 @@ This project collects synchronized multi-sensor data from CARLA, including RGB c
 
 ## How to Run
 
-Clone this repository:
+1. Clone this repository.
 
 git clone https://github.com/aikathalita/carla-autonomous-driving-dataset-pipeline.git
 
+2. Move into the project directory.
+
 cd carla-autonomous-driving-dataset-pipeline
 
-Install dependencies:
+3. Install dependencies.
 
 pip install -r requirements.txt
 
-Run the notebook:
+4. Run the notebook.
 
 jupyter notebook notebooks/carla_dataset_collection_pipeline.ipynb
 
-Make sure the CARLA Simulator server is running before executing the notebook.
+5. Make sure the CARLA Simulator server is running before executing the notebook.
 
 ## Notes
 
-Large generated datasets, images, videos, and sensor outputs are excluded from this repository.
+Large generated datasets, images, videos, and sensor outputs are excluded from this repository using .gitignore.
+
+This repository focuses on the data collection pipeline and implementation notebook.
 
 ## Author
 
