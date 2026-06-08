@@ -23,12 +23,14 @@ This project collects synchronized multi-sensor data from CARLA, including RGB c
 
 ## Repository Structure
 
+```text
 carla-autonomous-driving-dataset-pipeline/
 ├── notebooks/
 │   └── carla_dataset_collection_pipeline.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## How to Run
 
