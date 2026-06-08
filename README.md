@@ -34,21 +34,31 @@ carla-autonomous-driving-dataset-pipeline/
 
 ## How to Run
 
+## How to Run
+
 1. Clone this repository.
 
+```bash
 git clone https://github.com/aikathalita/carla-autonomous-driving-dataset-pipeline.git
+```
 
 2. Move into the project directory.
 
+```bash
 cd carla-autonomous-driving-dataset-pipeline
+```
 
 3. Install dependencies.
 
+```bash
 pip install -r requirements.txt
+```
 
 4. Run the notebook.
 
+```bash
 jupyter notebook notebooks/carla_dataset_collection_pipeline.ipynb
+```
 
 5. Make sure the CARLA Simulator server is running before executing the notebook.
 
